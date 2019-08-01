@@ -71,6 +71,11 @@
     <!-- Turn on LiveDisplay auto mode by default -->
     <integer name="config_defaultLiveDisplayMode">2</integer>
 
+    <!-- Corresponds to color balance level of zero, this is the native
+         display temperature -->
+    <integer name="config_dayColorTemperature">5900</integer>
+    <integer name="config_nightColorTemperature">3600</integer>
+
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
