@@ -231,6 +231,11 @@
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">false</bool>
     <bool name="config_setColorTransformAccelerated">true</bool>
 
+    <!-- Control whether Night display is available. This should only be enabled on devices
+         that have a HWC implementation that can apply the matrix passed to setColorTransform
+         without impacting power, performance, and app compatibility (e.g. protected content). -->
+    <bool name="config_nightDisplayAvailable">false</bool>
+
     <!-- ImsService package name to bind to by default. If none is specified in an overlay, an
          empty string is passed in -->
     <string name="config_ims_package">org.codeaurora.ims</string>
